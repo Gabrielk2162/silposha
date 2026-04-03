@@ -1,0 +1,46 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Auth & session files (contain tokens)
+.silpo_auth.json
+.ls_dump.json
+.browser_state.json
+.purchase_history.json
+.purchase_history_full.json
+.otp_code
+silposha.db
+
+# Browser artifacts
+.playwright-mcp/
+debug_*.png
+screen_*.png
+*_test.png
+*_added.png
+*_cart*.png
+*_search*.png
+*_form*.png
+*_otp*.png
+after_*.png
+before_*.png
+beer_*.png
+eggs_*.png
+login_*.png
+waiting_*.png
+authed_*.png
+stealth_*.png
+orders_*.png
+
+# Frontend build (not used)
+frontend/
+
+# IDE
+.vscode/
+.idea/
+
+# Server log
+server.log
+
+# Claude Code
+.mcp.json

@@ -1,0 +1,11 @@
+[Unit]
+Description=Silposha token refresh
+After=network.target xvfb.service
+Requires=xvfb.service
+
+[Service]
+Type=oneshot
+User=den
+Environment=DISPLAY=:99
+WorkingDirectory=/home/den/silposha
+ExecStart=/home/den/silposha/venv/bin/python /home/den/silposha/scripts/refresh_token.py
