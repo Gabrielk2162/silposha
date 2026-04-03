@@ -1,6 +1,7 @@
 # 🛒 Silposha — AI-помічник для покупок у Сільпо
 
 Автоматизація кошика в українському супермаркеті [Сільпо](https://silpo.ua) через reverse-engineered API. Працює без офіційного API — все зареверсено з веб-версії сайту.
+<img width="881" height="596" alt="image" src="https://github.com/user-attachments/assets/352ebf40-ede7-4011-aa34-c8cace0f56d4" />
 
 ## Що вміє
 
