@@ -85,7 +85,7 @@ async def _save_tokens(page: Page) -> None:
             jwt = json.loads(base64.b64decode(payload))
             exp = datetime.fromtimestamp(jwt["exp"], tz=timezone.utc)
             auth = {
-                "phone": "+380673527802",
+                "phone": "",
                 "user_id": jwt.get("sub"),
                 "access_token": access_token,
                 "basket_id": basket_id,
